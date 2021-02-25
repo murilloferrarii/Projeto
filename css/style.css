@@ -26,7 +26,7 @@ nav.menu ul li a{
 
 }
 
-menu ul li a:hover{
+nav.menu ul li a:hover {
     color: pink;
 }
 @media screen and (min-width: 768px){
