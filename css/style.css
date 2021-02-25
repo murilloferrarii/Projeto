@@ -2,11 +2,42 @@ body{
     
 }
 
-.menu ul{
+nav.menu{
+    display: flex;
+    flex-direction: row;
+}
+nav.menu ul{
     background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
 
 }
 
-.menu ul il {
+nav.menu ul li {
+    display: inline;
     
+}
+
+nav.menu ul li a{
+    padding: 1.563rem 0.625rem;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+
+}
+
+menu ul li a:hover{
+    color: pink;
+}
+@media screen and (min-width: 768px){
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
 }
