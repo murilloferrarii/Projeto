@@ -1,44 +1,53 @@
-body{
-    
+body {
 }
 
-nav.menu{
-    display: flex;
-    background-color: cadetblue;
-    
+nav.menu {
+  display: flex;
+  background-color: cadetblue;
 }
-nav.menu ul{
-    background-color: cadetblue;
-    display: flex;
-   
-
+nav.menu ul {
+  background-color: cadetblue;
+  display: flex;
 }
 
 nav.menu ul li {
-    display: inline;
-    
+  display: inline;
 }
 
-nav.menu ul li a{
-    padding: 1.563rem 0.625rem;
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-
+nav.menu ul li a {
+  padding: 1.563rem 0.625rem;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
 }
 
 nav.menu ul li a:hover {
-    color: pink;
+  color: pink;
 }
-@media screen and (min-width: 768px) {
-    nav {
-        
-        justify-content: space-around;
-        
-    }
-    nav ul {
-        
-        width: 70%;
-    }
 
+footer {
+  position: fixed;
+  padding: 16px 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: cadetblue;
+  color: white;
+  text-align: center;
+}
+div.sociais {
+  margin: 0 0 10px 0;
+}
+svg.twitch,
+svg.twitter {
+  fill: white;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    justify-content: space-around;
+  }
+  nav ul {
+    width: 70%;
+  }
 }
