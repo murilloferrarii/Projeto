@@ -4,12 +4,13 @@ body{
 
 nav.menu{
     display: flex;
-    flex-direction: row;
+    background-color: cadetblue;
+    
 }
 nav.menu ul{
     background-color: cadetblue;
     display: flex;
-    flex-direction: row;
+   
 
 }
 
@@ -31,12 +32,12 @@ nav.menu ul li a:hover {
 }
 @media screen and (min-width: 768px) {
     nav {
-        flex-direction: row;
+        
         justify-content: space-around;
         
     }
     nav ul {
-        flex-direction: row;
+        
         width: 70%;
     }
 
